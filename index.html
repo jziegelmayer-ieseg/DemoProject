@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- This is a comment to provide notes to yourself or someone else reading your code -->
+    <title>My first web page</title>
+
+
+
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+
+</head>
+
+<body class="container">
+
+
+    <h1>My first web page</h1>
+
+    <h2>First Topic</h2>
+
+
+    <p >This is a paragraph in my webpage. <em>This is text inside emphasis tags.</em> This is
+        more of my paragraph. <i>This is inside italics tags.</i> You need to understand semantics to know the
+        difference.</p>
+
+    <h2>An unordered list</h2>
+    <ul>
+        <li>Unordered list item one</li>
+        <li>Unordered list item two has an ordered list inside it.
+            <ol>
+                <li>Ordered item one</li>
+                <li>Ordered item two</li>
+                <li>Ordered item three</li>
+                <li>Ordered item four</li>
+            </ol>
+        </li>
+        <li>Unordered list item three</li>
+    </ul>
+
+    <h2>Third topic</h2>
+
+    <p >Here is the link inside the paragraph: <a href="http://ieseg.fr">Link to IESEG website</a> Here is the rest of
+        the paragraph.
+    </p>
+
+    <p ><a href="http://ieseg.fr"><img src="images/logo_ieseg_biseaute.svg" width="120" height="90" alt="IESEG logo"></a>
+    </p>
+
+    <h2 class="btn-red">Buttons</h2>
+    <p><button class="btn-blue">First Button</button></p>
+    <p><button class="btn-red btn-small">Second Button</button></p>
+    <p><button class="btn-blue" id="different">Third Button</button></p>
+
+    <h3>Some random table</h3>
+    <table>
+        <tr>
+            <td>Row 1, cell 1</td>
+            <td>Row 1, cell 2</td>
+            <td>Row 1, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, cell 1</td>
+            <td>Row 2, cell 2</td>
+            <td>Row 2, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, cell 1</td>
+            <td>Row 3, cell 2</td>
+            <td>Row 3, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, cell 1</td>
+            <td>Row 4, cell 2</td>
+            <td>Row 4, cell 3</td>
+        </tr>
+    </table>
+
+    <h3>Some random form</h3>
+    <p><strong>Note:</strong> It doesn't <b>actually</b> work.</p>
+
+    <form action="http://ieseg.fr">
+
+        <p>Name:</p>
+        <p><input name="name" value="Your name"></p>
+
+        <p>Comments: </p>
+        <p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
+
+        <p>Are you:</p>
+        <p><input type="radio" name="areyou" value="male"> Male</p>
+        <p><input type="radio" name="areyou" value="female"> Female</p>
+
+        <p><input type="submit"></p>
+
+    </form>
+
+</body>
+
+</html>
